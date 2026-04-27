@@ -62,8 +62,7 @@ function App() {
         <p>In this guide</p>
         <a href="#why-different">Why civil works erosion is different</a>
         <a href="#environment">Environmental impact</a>
-        <a href="#waterways">Sedimentation in waterways</a>
-        <a href="#habitat">Habitat degradation</a>
+        <a href="#waterways">Sedimentation & Habitat Damage</a>
         <a href="#business-risk">Business risk</a>
         <a href="#products">Product selection</a>
         <a href="#example">Civil works example</a>
@@ -87,8 +86,12 @@ function App() {
               <p>This article focuses on the environmental consequences of that disturbance. For a more product-led guide to preventing erosion on active mining and construction sites, see Form Direct's article on <a href="https://formdirect.com.au/blog/mining-construction-soil-erosion-prevention-strategies/">how to prevent soil erosion on mining and construction sites</a>.</p>
             </div>
             <figure className="visual-card">
-              <img src="https://formdirect.com.au/media/wysiwyg/menu/formdirect-enviro-subcat-coir-mesh.jpg" alt="TrexGeo coir mesh used for erosion control" />
-              <figcaption>Surface protection helps keep exposed batters stable while vegetation establishes.</figcaption>
+              <img src="https://formdirect.com.au/wp-content/uploads/2023/10/Form-Direct-Tailings-Dam-Wall-Erosion-Control-1.jpg" alt="Tailings dam wall erosion control project" />
+              <figcaption>
+                <h3 style={{ marginTop: 0, marginBottom: '8px', color: 'var(--yellow)', fontSize: '18px' }}>Tailings Dam Wall Erosion Control</h3>
+                <p style={{ margin: '0 0 16px', lineHeight: 1.4, color: 'rgba(255, 255, 255, 0.82)' }}>See how we helped stabilise a massive tailings dam wall using TrexGeo coir mesh and hydroseeding to prevent environmental damage.</p>
+                <a className="button" href="https://formdirect.com.au/projects/tailings-dam-wall-erosion-control/" style={{ width: '100%', border: 'none' }}>View Project</a>
+              </figcaption>
             </figure>
           </div>
         </section>
@@ -107,7 +110,11 @@ function App() {
           <p>Sediment can also carry other pollutants with it. Nutrients, hydrocarbons, cement residue, metals, and other site contaminants may attach to soil particles and travel with runoff. This means erosion can turn a local surface management issue into a broader water quality problem.</p>
         </section>
 
-        <section className="section">
+        <section className="section" id="waterways">
+          <p className="eyebrow">Downstream and Habitat Damage</p>
+          <h2>Sedimentation and Habitat Degradation</h2>
+          <p>Sedimentation is one of the most serious environmental consequences of erosion from civil works. It occurs when eroded soil settles in waterways, drainage channels, basins, wetlands, or coastal receiving environments. This creates a chain reaction of downstream and surface damage:</p>
+
           <div className="card-grid">
             <article className="impact-card">
               <span className="icon">W</span>
@@ -130,37 +137,11 @@ function App() {
               <p>Lost topsoil removes organic matter, seed banks, soil organisms, and structure, leaving exposed surfaces vulnerable for longer.</p>
             </article>
           </div>
-        </section>
 
-        <section className="section" id="waterways">
-          <p className="eyebrow">Downstream damage</p>
-          <h2>Sedimentation in waterways</h2>
-          <p>Sedimentation is one of the most serious environmental consequences of erosion from civil works. It occurs when eroded soil settles in waterways, drainage channels, basins, wetlands, or coastal receiving environments.</p>
-          <div className="sediment-strip">
+          <div className="split" style={{ marginTop: '42px' }}>
             <div>
-              <b>In the water</b>
-              <span>Excess sediment can reduce oxygen and light, and make the water cloudy.</span>
-            </div>
-            <div>
-              <b>On the bed</b>
-              <span>Heavier particles can smother aquatic plants, cover spawning areas, and fill habitat spaces.</span>
-            </div>
-            <div>
-              <b>In the asset</b>
-              <span>Stormwater drains, culverts, sediment basins, and creek lines may need repeated cleanout.</span>
-            </div>
-          </div>
-          <p>As sediment builds up, it can also reduce channel capacity, which may increase local flooding risk during heavy rain. If a site is already struggling with surface water movement or repeated flooding, erosion control should be planned alongside drainage design. Form Direct's guide to <a href="https://formdirect.com.au/blog/flooded-construction-site-stormwater-solutions">stormwater solutions for flooded construction sites</a> covers that drainage side in more detail.</p>
-        </section>
-
-        <section className="section" id="habitat">
-          <div className="split">
-            <div>
-              <p className="eyebrow">Soil surface</p>
-              <h2>Habitat degradation starts at the surface</h2>
-              <p>Healthy habitats depend on stable soil. When erosion removes topsoil, it takes away organic matter, seed banks, soil organisms, and the structure that helps vegetation re-establish.</p>
-              <p>On batters, embankments, creek banks, and roadside corridors, that loss can delay revegetation and leave the site exposed for longer. The longer soil remains bare, the more likely it is that runoff will cut new channels, carry more sediment, and make rehabilitation harder.</p>
-              <p>The impact is not limited to plants. When vegetation fails to establish, wildlife loses shelter, shade, food sources, and movement corridors. In riparian areas, reduced vegetation can increase water temperature, destabilise banks, and weaken the natural buffer between the worksite and the waterway.</p>
+              <p>As sediment builds up, it reduces channel capacity and increases local flooding risk. If a site is struggling with surface water movement, erosion control should be planned alongside drainage design. See Form Direct's guide to <a href="https://formdirect.com.au/blog/flooded-construction-site-stormwater-solutions">stormwater solutions for flooded construction sites</a>.</p>
+              <p>The impact is not limited to plants. When vegetation fails to establish, wildlife loses shelter, shade, and movement corridors. In riparian areas, reduced vegetation can increase water temperature, destabilise banks, and weaken the natural buffer between the worksite and the waterway.</p>
             </div>
             <figure className="visual-card">
               <img src="https://formdirect.com.au/media/wysiwyg/menu/formdirect-enviro-subcat-coir-logs.jpg" alt="Coir logs for bank protection and sediment interception" />
