@@ -144,8 +144,8 @@ function App() {
               <p>The impact is not limited to plants. When vegetation fails to establish, wildlife loses shelter, shade, and movement corridors. In riparian areas, reduced vegetation can increase water temperature, destabilise banks, and weaken the natural buffer between the worksite and the waterway.</p>
             </div>
             <figure className="visual-card">
-              <img src="https://formdirect.com.au/media/wysiwyg/menu/formdirect-enviro-subcat-coir-logs.jpg" alt="Coir logs for bank protection and sediment interception" />
-              <figcaption>Coir logs slow concentrated flow paths and help sediment settle before reaching sensitive areas.</figcaption>
+              <img src="https://formdirect.com.au/wg/images/trexpavelok/formdirect-trexpavelok-after-full.webp" alt="Trex Ground Stabilisation System preventing erosion" />
+              <figcaption>Trex Ground Stabilisation System locks soil in place, creating a stable surface that prevents erosion and distributes weight evenly.</figcaption>
             </figure>
           </div>
         </section>
